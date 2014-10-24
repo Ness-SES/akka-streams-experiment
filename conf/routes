@@ -1,0 +1,1 @@
+GET /tickets/:eventId/book/:count     controllers.Tickets.book(eventId: Int, count: Int)
